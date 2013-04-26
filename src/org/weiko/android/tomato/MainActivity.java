@@ -26,7 +26,7 @@ public class MainActivity extends FragmentActivity {
         pages.add(new ActivitiesListPage());
         PageAdapter adapter  = new PageAdapter(getSupportFragmentManager(), pages);
         ViewPager pager = (ViewPager) findViewById(R.id.am_main_view);
-        pager.setAdapter(adapter);
+        pager.setAdapter(adapter); // this is test
     }
 
     @Override
